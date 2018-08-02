@@ -1,0 +1,11 @@
+body {
+    background-image: (background.jpg);
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.red {
+    color: red;
+}
