@@ -1,0 +1,21 @@
+body {
+background-color: gray;
+}
+
+.profiletop {
+background-color: blue;
+display: block;
+width: 850px;
+height: 250px;
+border: black solid 1px;
+}
+
+h1, h3, img {
+    margin-top: 90px
+}
+
+img {
+    float: left;
+    width:150px;
+    height: 150px;
+}
