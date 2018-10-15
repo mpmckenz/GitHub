@@ -1,0 +1,65 @@
+GET https://www.w3.org/People/Berners-Lee/
+###
+GET https://swapi.co/api/films/2/
+###
+GET https://swapi.co/api/people/1/
+###
+GET https://swapi.co/api/species/
+###
+GET https://swapi.co/api/
+###
+GET https://pokeapi.co/api/v2/
+###
+GET https://api.nasa.gov
+###
+GET https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo
+// awesome NASA astronomy image below
+// https://apod.nasa.gov/apod/image/1809/AutumnSky_u2go_5000.jpg
+###
+GET https://pokeapi.co/api/v2/pokemon/4/
+###
+GET https://exchange.bitcoin/api/trades/
+###
+GET https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke
+// Joke API but only shows one
+###
+GET https://github.com/15Dkatz/official_joke_api/blob/master/jokes/index.json
+###
+// MAGIC THE GATHERING!!!!!!!!!!!! OMFG!!!
+GET https://api.magicthegathering.io/v1/cards
+###
+GET https://api.magicthegathering.io/v1/cards/386616
+###
+GET https://api.magicthegathering.io/v1/sets
+###
+GET https://api.magicthegathering.io/v1/types
+###
+GET https://ipvigilante.com/38.109.179.126
+// find Geolocation with IP Address
+###
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "The Kenzie God": "Michael McKenzie"
+}
+// my id is 101
+###
+GET https://jsonplaceholder.typicode.com/posts/1
+###
+GET https://jsonplaceholder.typicode.com/posts/101
+###
+GET https://api.openaq.org/v1/cities
+###
+GET http://foaas.com/off/Tom/Everyone?shoutcloud/zero/:from
+###
+GET https://api.spotify.com/v1/artists/6rqhFgbbKwnb9MLmUQDhG6/albums
+###
+# GET 6rqhFgbbKwnb9MLmUQDhG6
+###
+GET https://api.tronalddump.io/search/quote?query=obama
+//Trump Quotes example above
+###
+GET https://api.tronalddump.io/tag
+###
+GET https://api.tronalddump.io/tag/Money

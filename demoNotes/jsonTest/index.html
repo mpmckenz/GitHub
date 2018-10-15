@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            // readyState 4 mean that response has been captured
+            // status HTTP status of 200 means everything went okay
+            if (this.readyState == 4 && this.status == 200) {
+                // Typical action to be performed when the document is ready:
+                // document.getElementById("demo").innerHTML = xhttp.responseText;
+                console.log(xhttp.responseText)
+            }
+        };
+        // open make a GET request to a specific file or a spcific URL
+        xhttp.open("GET", "test.json", true);
+        // call send
+        xhttp.send();
+        // ran into error bc we're calling it from the local file system need Nodejs to upload from live server
+    </script>
+</body>
+
+</html>

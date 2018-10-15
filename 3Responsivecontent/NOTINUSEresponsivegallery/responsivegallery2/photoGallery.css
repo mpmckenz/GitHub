@@ -1,0 +1,15 @@
+
+.masonry-layout {
+  column-count: 1;
+  column-gap: 0;
+}
+@media (min-width: 768px) {
+  .masonry-layout {
+    column-count: 2;
+  }
+}
+@media (min-width: 1200px) {
+  .masonry-layout {
+    column-count: 3;
+  }
+}
